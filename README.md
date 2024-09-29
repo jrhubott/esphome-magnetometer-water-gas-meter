@@ -93,12 +93,12 @@ To verify compatibility install the Sensors app on your phone, place your phone 
 
 ### Wiring
 
-QMC5883L | ESP8266
---- | ---
-VCC | 5V
-GND | GND
-SCL | D1
-SDA | D2
+QMC5883L | ESP8266/ESP32 | Wire
+--- | --- | ---
+VCC | 5V  | Orange
+GND | GND | Brown
+SCL | D1  | Blue
+SDA | D2  | Green
 
 The ethernet cable has 4 twisted pairs of wires. Use any solid wire color for the 4 above pins. Tie the 4 white wires together with the GND solid wire. You might need to use a header pin for the GND. If you use a header pin cut the 5 GND wires shorter to avoid the ball of wires I had...
 
