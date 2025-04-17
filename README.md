@@ -94,9 +94,9 @@ To verify compatibility install the Sensors app on your phone, place your phone 
 ### Wiring
 
 QMC5883L | ESP8266/ESP32 | ESP32 Pin | Wire
---- | --- | | ---
-VCC | 5V  | | Orange
-GND | GND | | Brown
+--- | --- | --- | ---
+VCC | 5V  | --- | Orange
+GND | GND | --- | Brown
 SCL | D1  | GPIO22 | Blue
 SDA | D2  | GPIO21 | Green
 
